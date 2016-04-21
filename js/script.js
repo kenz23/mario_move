@@ -17,6 +17,12 @@ $(function(){
 					x+=10;}
 					$(".background").css("right", x+"px");	//background passing			
 			}
+			
+			
+		if(x===2500){
+				document.innerHTML ="Winner";
+			}
+
 			break;
 			 
 		case 37://mario move left
@@ -27,6 +33,7 @@ $(function(){
 		break;
 			
 		case 38://mario jamp
+			$('#audio')[0].play();
 			$(".mario").animate({marginTop:"-="+saut+"px"}, 100).animate({marginTop:"+="+saut+"px"}, 100);
 			break;
 			} 

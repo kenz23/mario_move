@@ -9,9 +9,9 @@
 	transform:rotateY(180deg);
 }
 .background{
-	margin-top: 200px;
 	position:relative;
-	
+	margin-top: 200px;
+		
 }
 #translation{
 	margin: auto;
